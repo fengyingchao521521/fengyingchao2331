@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ScodeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="八维学生推出排行榜"
+        android:gravity="center"
+        android:id="@+id/text1"
+        />
+    <TextView
+        android:layout_below="@id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="朋友"
+        android:gravity="center"
+        android:id="@+id/text"
+        />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/image"
+        android:layout_below="@id/text"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_marginTop="50sp"
+        />
+
+<Button
+    android:id="@+id/butt01"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="50sp"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="微信"
+    />
+    <Button
+        android:id="@+id/butt02"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qq"
+        />
+
+
+
+</RelativeLayout>
